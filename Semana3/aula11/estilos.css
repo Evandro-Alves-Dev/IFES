@@ -3,7 +3,7 @@ h1 {
 }
 
 i{
-    color: red;
+    color: red;  
 }
 
 ul{
@@ -16,13 +16,15 @@ p {
 }
 
 /* seletor por classe é o intermediario */
-.vermelho{
+.vermelho::marker {
     color: red;
+    size: 10px;
 }
 
 /* seletor por ID é o mais especifico */
 #p2{
     font-size: 24px;
+    margin-right: 2vw;
 }
 
 /* seletor universal */

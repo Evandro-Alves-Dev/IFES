@@ -1,0 +1,57 @@
+p:after {
+    content: " *";
+}
+
+#p1:before {
+    content: " [ ]";
+}
+
+h1 {
+    position: relative;
+    text-align: center;
+}
+
+h1:after {
+    content: "";
+    background-image: linear-gradient(120deg, #e5ea15, #00c4ff);
+    width: 90%;
+    height: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%) skew(-50deg);
+}
+
+#p3:first-letter {
+    font-size: 50px;
+    color: #999
+}
+
+#p2::first-line {
+    background-color: yellow;
+    font-variant: small-caps;
+}
+
+/* Site com emojis para HTML - https: //www.w3schools.com/charsets/ref_emoji.asp */
+ul>li::marker {
+    content: "✌ ";
+    font-size: 90%;
+}
+
+/* Altera somente o marcador do item */
+ol>li::marker {
+    color: blue;
+}
+
+/* Seletor que açtera somente o que começa com http */
+a[href^="http"]:after {
+    content: ".🈯";    
+    font-style: italic;
+}
+
+/* Seletor que altera somente o que termina com pdf */
+a[href$="pdf"]:after {
+    font-weight: bold;
+    text-decoration: none;
+    content: ".pdf";
+}

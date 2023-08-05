@@ -1,0 +1,52 @@
+/* CSS HEX gerados pelo site  https://coolors.co */
+:root {
+    --plum: #963484ff;
+    --true-blue: #3066beff;
+    --argentinian-blue: #60afffff;
+    --deep-sky-blue: #28c2ffff;
+    --aqua: #2af5ffff;
+}
+
+body {
+    background-color: var(--true-blue);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* Imagem de teztura gerada pelo site https: //www.transparenttextures.com */
+    background-image: url("brick-wall.png");
+    background-repeat: repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--plum);
+}
+
+p{
+    color: var(--aqua);
+    border: 1px solid;
+    border-style: solid dotted solid dotted;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 5px;
+}
+
+a {
+    color: var(--argentinian-blue);
+    text-decoration: none;
+    outline-offset: 6px;
+    outline: 3px dotted var(--plum);
+    border-radius: 5px;
+}
+
+header, footer {
+    background-color: var(--aqua);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+main {
+    padding: 10px;
+    
+}

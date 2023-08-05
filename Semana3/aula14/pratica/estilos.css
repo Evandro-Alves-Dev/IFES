@@ -1,0 +1,86 @@
+p:after {
+    content: " ✌";
+}
+
+p::first-letter {
+    font-size: 25px;
+    color: brown;
+}
+
+a[href^="http"] {   
+    font-style: italic;
+    text-decoration: none;
+    color: orange;
+    display: block;
+    margin: 10px 1px;
+}
+
+a[href$="xlsx"] {
+    font-style: bold; 
+    font-size: 30px;   
+    color: darkmagenta;
+    display: block;
+    margin: 10px 1px;
+}
+
+form {
+    border: solid 2px red;
+    border-radius: 5px;
+    margin: 1px 1px; 
+    padding: 1px 10px;  
+    text-align: left;
+    display: inline-block;
+}
+
+input[type=checkbox]:checked {
+    color: green;       
+}
+
+input[type=checkbox]:checked ~ label {
+    font-weight: bold;
+    color: green;
+}
+
+input:focus {
+    outline: 3px double gray;    
+}
+
+div {
+    margin: 1em 0;
+}
+
+label {
+    display: block;  
+}
+
+input + label {
+    display: inline;
+    margin-bottom: 0px;
+    margin-right: 1em;
+}
+
+input[type=number]:out-of-range {
+    background-color: red;    
+}
+
+table {
+    text-align: center;   
+    border-collapse: collapse;
+    display: block;
+    margin: 10px 1px;
+}
+
+td {
+    border: solid 1px gray;
+    padding: 5px;
+}
+
+td:hover {
+    color: red;
+}
+
+table tr:nth-child(even) {
+    background-color: rgb(139, 138, 138);
+    color: white;
+    
+}

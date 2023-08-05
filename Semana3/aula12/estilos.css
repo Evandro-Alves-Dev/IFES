@@ -1,0 +1,41 @@
+body{
+    /* background-color: gray;
+    background-image: url("fundo.jpg");
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: fixed; */
+    background-size: 50px;
+    background: gray url("fundo.jpg") repeat fixed;
+}
+
+p{
+    background-color: rgba(0, 0, 255, 0.4);
+    color: white;
+
+    /* Pode-se passar a posição que quer aplicar os CSS, top, left, right ou bottom 
+    border-top-color:black;
+    border-top-style: solid;
+    border-top-width: 3px; */
+
+    /* border-color: black;   
+    border-width: 3px; */
+    
+    /* Sequencia é largura, estilo e cor */
+    border: 3px solid black ;
+    border-style: solid dotted solid dotted;
+    border-radius: 10px;
+
+    /* Estas margins dão da borda para fora */
+    margin: 20px 0 40px 100px;
+
+    /* Estas margins são da margem interna */
+    padding: 25px;
+
+    /* outline-style: solid;
+    outline-color: red;
+    outline-width: 3px; */
+
+    outline-offset: 6px;
+    /* Sequencia é largura, estilo e cor */
+    outline: 3px solid red;
+}

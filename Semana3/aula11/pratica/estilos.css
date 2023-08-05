@@ -1,0 +1,32 @@
+h1{
+    color: aqua;
+}
+
+.destacado{
+    font-style: italic;
+    text-transform: uppercase;
+    color: chocolate;
+}
+
+#txtNome{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    font-size: medium;
+}
+
+h2, p, .textoSimples {
+    color: blueviolet;
+}
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p i {
+    color: red;
+}
+
+p > strong {
+    font-size: x-large;
+    font-size: 30px;
+}

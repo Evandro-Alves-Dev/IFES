@@ -1,0 +1,51 @@
+h1 {
+    color: aqua;
+}
+
+i{
+    color: red;
+}
+
+ul{
+    background: grey;
+}
+
+/* seletor por tipo é o mais generico */
+p {
+    color: violet;
+}
+
+/* seletor por classe é o intermediario */
+.vermelho{
+    color: red;
+}
+
+/* seletor por ID é o mais especifico */
+#p2{
+    font-size: 24px;
+}
+
+/* seletor universal */
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+/* Relação de descendencia, qualquer elemento "i" dentro de "h1" sera afetado */
+h1 i {
+    color: orange;
+}
+
+/* Relação de pai e filho somente se o elemento "i" for filho de "h1" que sera afetado */
+h1 > i {
+    color: green;
+}
+
+/* seletor por vizinhança, atinge somente os tipos que estão depois do elemento base, neste caso: base "ul" e depois "p" */
+ul ~ p {
+    text-decoration: underline;
+}
+
+/* seletor por vizinhança, atinge APENAS o 1ª elemento que vem depois do elemento base  */
+ul + p {
+    background: yellowgreen;
+}

@@ -1,0 +1,60 @@
+
+/* Fonte importada do site https: //fonts.google.com */
+/* @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&display=swap'); */
+
+body, a {
+    color: gray;
+}
+
+h1 {
+    /* font-style: italic;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-family: "Handjet";
+    font-size: 4vw;    
+    text-shadow: 1px 1px 2px black;   */
+    
+
+    text-align: center;
+    /* Usar de forma compactada na sequencia, style, variant, weigth, tamanho da fonte/altura da linha e font */
+    font: normal small-caps normal 30px/80px "Sofia";    
+}
+
+p {
+    text-align: justify;
+    text-decoration: underline dotted ;
+    text-transform: capitalize;
+    text-indent: 20px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    word-spacing: 10px;
+    white-space: pre-line;
+}
+
+a:link {
+    color: rgb(175, 136, 64);
+    text-decoration: none;
+    cursor: copy;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color:blue
+}
+
+ul {
+    list-style-type: disc;
+    
+}
+
+li {
+    line-height: 30px;
+    
+}

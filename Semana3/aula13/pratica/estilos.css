@@ -1,0 +1,49 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@200&family=Montserrat:wght@300&display=swap'); */
+
+body {
+    background-color: white;
+    text-align: justify;
+    margin: 20px;
+    color: rgba(0,0,0,0.4);
+    font-family: "Montserrat";
+}
+
+i {
+    color: rgb(107, 177, 17);
+}
+header {
+    border-left-color: cadetblue;
+    border-left-style: solid;   
+    padding-left: 20px;  
+    border-width: 3px;
+    margin: 15px;
+    padding: 10px none none none
+}
+
+span {
+    font-weight: bold;
+}
+
+p {
+    margin: 15px;    
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(90,90,90,1);
+    padding: 10px;
+    color: white;
+}
+
+h1 {
+    text-align: left;
+    color: white;
+    background-color: rgba(90, 90, 90, 1);
+    padding: 10px;    
+}
+
+ul {
+   list-style-image: url("checklist-10.png");
+   font-size: 110%;
+}

@@ -1,0 +1,39 @@
+/* Quando display for inline não sofrerá alterações com width e height
+ Display inline-block aceita alterações e ainda permite elementos ao lado*/
+
+body {
+    border: solid 1px black;
+}
+
+#div2 {
+    /* usando para sumir com o local e o conteudo */
+    display: none;
+    /* Usado para sumir com o conteudo, o local fica reservado */
+    display: hidden;
+}
+
+div {
+    border: solid 1px black;
+    margin: 30px;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    transition: 0.7s;
+}
+
+div:hover {
+    opacity:0.5;
+    transition: 0.7s;
+}
+
+#div1 {
+    background-color: yellow;
+}
+
+#div3 {
+    background-color: blue;
+}
+
+#div4 {
+    background-color: red;
+}

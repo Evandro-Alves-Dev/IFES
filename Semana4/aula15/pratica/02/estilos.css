@@ -1,0 +1,23 @@
+* {
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;    
+    height: 80vh;   
+}
+
+a {
+    opacity: 0.5;
+    transition: 0.7s;    
+}
+
+a:hover {
+    transition: 0.7s;
+    opacity: 1;
+}

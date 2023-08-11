@@ -33,12 +33,12 @@ div.conteudo {
     display: inline-block;
     background-color: black;
     height: 100%;
-    width: calc(79vw - 200px);
+    width: calc(80vw - 200px);
      
 }
 
 
 div.rodape {
-    background-color: lightsalmon;
+    background-color: lightcoral;
     height: 120px;
 }

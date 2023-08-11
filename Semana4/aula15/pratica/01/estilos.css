@@ -1,0 +1,14 @@
+* {
+    background-color: azure;   
+}
+
+div {
+    display: inline-block;   
+    width: 31%;
+    height: 80vh;
+    margin: 0 8px;
+}
+
+#id1, #id2 {
+    border-right: 1px solid gray;
+}

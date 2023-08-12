@@ -1,0 +1,27 @@
+body {
+    background-color: aliceblue;
+    height: 3000px;
+}
+
+#div1, #div2 {
+    width: 500px;
+    height: 700px;
+}
+
+#div1 {
+    background-color: blue;   
+}
+
+#div2 {
+    background-color: green;
+   }
+
+   /* O elemento se movimenta na rolagem da pagina, mas quando chega na posição original ele assuma a posição */
+#div3 {
+    background-color: yellow;
+    width: 100px;
+    height: 100px; 
+    position: sticky;
+    bottom: 30px; 
+    top: 30px;  
+}

@@ -1,0 +1,14 @@
+* {
+    background-color: aliceblue;
+}
+
+#div1 {
+    background-color: blue;
+}
+
+/* Position relative se movimenta relativamente baseado na posição em que ela foi renderizada e sua posição inicial fica reservada para ela
+  */
+#div2 {
+    background-color: yellow;
+    position: relative;
+}

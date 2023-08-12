@@ -1,0 +1,10 @@
+
+/* Position absolute e fixed permite reposcionameto automatico na pagina  */
+#div1 {
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    left: 100px;
+    right: 100px;
+}

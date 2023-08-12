@@ -1,0 +1,37 @@
+body {
+    background-color: aliceblue;
+    height: 3000px;
+}
+
+div {
+    display: inline-block;
+}
+
+#div1 {
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 300px;
+    top: 200px;
+}
+
+/* O elemento fica centralizado pois se baseia na div1 que é a ancestral com comportamento não estatico */
+#div2 {
+    background-color: yellow;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+/* O elemento fica centralizado pois se baseia na div2 que é a ancestral com comportamento não estatico */
+#div3 {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}

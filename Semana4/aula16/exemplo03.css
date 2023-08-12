@@ -1,0 +1,21 @@
+* {
+    background-color: aliceblue;
+    height: 3000px;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+#div1 {
+    background-color: blue;
+}
+
+/* O elemento segue a barra de rolagem, aceita ser repocionado, segue prioridade left e bottom */
+#div2 { 
+    background-color: yellow;
+    position: fixed;
+    left: 50px;
+}

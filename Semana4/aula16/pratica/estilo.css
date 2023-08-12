@@ -1,0 +1,49 @@
+body {
+    background-color: gainsboro
+}
+
+#div1 {
+    background-color: gray;
+    opacity: 0.2;
+    position: absolute;
+    top: 100px;
+    bottom: 200px;
+    left: 400px;
+    right: 200px; 
+    width: 600px;
+    height: 600px;
+}
+
+
+#div2 {
+    background-color: yellow;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+#div3 {
+    background-color: blue;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 250px;
+    left: 250px;
+}
+
+#div4 {
+    background-color: red;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 500px;
+    
+}
+
+#div5 {
+    background-color: green;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    height: 100px;
+}

@@ -1,0 +1,12 @@
+
+/* Server para que o navegador considere a margin e o padding */
+* {
+    box-sizing: border-box;
+}
+
+img {
+    float: left;
+    width: 25%;
+    border: solid 10px pink;
+    border-radius: 20px
+}

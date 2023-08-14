@@ -1,0 +1,16 @@
+body {
+    margin: 30px;
+}
+
+p>img {
+    margin-right: 10px;
+    height: 135px;
+    float: right;
+}
+
+/* overflow neste caso obriga o paragrafo a seguir o tamanho do objeto flutuante */
+p {
+    background-color: blanchedalmond;
+    font-size: 30px;
+    overflow: hidden;
+}

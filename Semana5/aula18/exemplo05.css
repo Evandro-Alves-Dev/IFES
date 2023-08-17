@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+}
+
+main {
+    display: flex;
+    min-height: 70vh;
+}
+
+main>article {
+    flex-grow: 1;
+}
+
+main>nav, main>aside {
+    flex: 0 0 20vw;
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: rgb(103, 176, 189);
+    height: 20vh;
+}
+
+footer {
+    background-color: rgb(189, 137, 176);
+    height: 10vh;
+}

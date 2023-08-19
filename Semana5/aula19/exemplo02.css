@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffeead;
+    margin: 10px;
+}
+
+.container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #ffeead;
+}
+
+.container>div:nth-child(1n) {
+    background-color: #96ceb4;
+}
+
+container>div:nth-child(2n) {
+    background-color: #ff6f69;
+}
+
+container>div:nth-child(3n) {
+    background-color: #a4a3e7;
+}
+
+container>div:nth-child(4n) {
+    background-color: #ffcc5c;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 50px 50px;
+    /* Serve para colocar espaço entre as linhas e colunas */
+    grid-gap: 10px
+}

@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffeead;
+    margin: 10px;
+}
+
+.container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #ffeead;
+}
+
+.container>div:nth-child(1n) {
+    background-color: #96ceb4;
+}
+
+container>div:nth-child(2n) {
+    background-color: #ff6f69;
+}
+
+container>div:nth-child(3n) {
+    background-color: #a4a3e7;
+}
+
+container>div:nth-child(4n) {
+    background-color: #ffcc5c;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 50px 50px;
+    grid-template-columns: repeat(3, 1f); /* 1fr 1fr 1fr */    
+    /* Subistitui a rows e as columns, passar na sequencia */
+    grid-template: repeat(2, 50px) / repeat(3, 1fr);
+
+
+    /* Serve para colocar espaço entre as linhas e colunas */
+    grid-gap: 10px
+}

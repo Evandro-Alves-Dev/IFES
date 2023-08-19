@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+main {
+    display: grid;      
+    grid-template-rows: 20vh 10vh 20vh 40vh 10vh;
+    font-size: 2rem;     
+    border: 1px solid black;
+}
+
+header {  
+    grid-row: 1;    
+    border: 1px solid black;
+}
+
+nav { 
+    grid-row: 2;
+    border: 1px solid black;
+}
+
+aside {
+    grid-row: 3;
+    border: 1px solid black;
+}
+
+article {
+    grid-row: 4;
+    border: 1px solid black;
+}
+
+footer { 
+    grid-row: 5;
+    border: 1px solid black;
+}
+ 

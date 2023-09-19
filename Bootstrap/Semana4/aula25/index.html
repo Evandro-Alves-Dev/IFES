@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Botões e Agrupaentos de Botões</title>
+</head>
+
+<body>
+    <div class="container py-5">
+        <button class="btn btn-success">Botão 1</button>
+        <button class="btn btn-primary" data-bs-toggle="button">Botão Marcável</button>
+    </div>
+    <hr>
+    <div class="container py-5">
+        <div class="btn-group">
+            <button class="btn btn-primary">Botão 1</button>
+            <button class="btn btn-warning">Botão 2</button>
+            <button class="btn btn-danger">Botão 3</button>
+        </div>
+        <hr>
+        <p>Mutuamente exclusivos</p>
+        <div class="btn-group">
+            <input type="radio" name="grupo" id="btn1" class="btn-check">
+            <label for="btn1" class="btn-outline-primary">Botão de checagem 1</label>
+            <input type="radio" name="grupo" id="btn2" class="btn-check">
+            <label for="btn2" class="btn-outline-primary">Botão de checagem 2</label>
+            <input type="radio" name="grupo" id="btn3" class="btn-check">
+            <label for="btn3" class="btn-outline-primary">Botão de checagem 3</label>
+        </div>
+        <hr>        
+        <div class="btn-group">
+            <input type="checkbox" id="btn1" class="btn-check">
+            <label for="btn1" class="btn-outline-primary">Botão de checagem 1</label>
+            <input type="checkbox" id="btn2" class="btn-check">
+            <label for="btn2" class="btn-outline-primary">Botão de checagem 2</label>
+            <input type="checkbox" id="btn3" class="btn-check">
+            <label for="btn3" class="btn-outline-primary">Botão de checagem 3</label>
+        </div>
+        <hr>
+        <div class="btn-toolbar">
+            <div class="btn-group">
+                <button class="btn btn-primary">
+                    <i class="bi-folder2-open"></i>
+                </button>
+                <button class="btn btn-primary">
+                    <i class="bi-folder2-open"></i>
+                </button>
+                <button class="btn btn-primary">
+                    <i class="bi-folder2-open"></i>
+                </button>
+                <button class="btn btn-primary">
+                    <i class="bi-folder2-open"></i>
+                </button>
+            </div>
+            <div class="input-group">
+                <input type="search" class="form-control">
+                <button class="btn btn-primary">
+                    <i class="bi-search"></i>
+                </button>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">Submenus</button>
+            <ul class="dropdown-menu">
+                <li>
+                    <a href="#" class="dropdown-item">Submenu 1</a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-item">Submenu 2</a>
+                </li>
+                <li>
+                    <a href="#" class="dropdown-item">Submenu 3</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -2,7 +2,7 @@
 Pela Tag: getElementsByTagName
 Por identificação: getElementById
 Por nome: getElementsByName
-Por classe CSS: getElementsByClassName
+Por classe: getElementsByClassName
 Por seletor: querySelector
 **/
 

@@ -9,5 +9,5 @@ function calcular() {
 
     var div = document.getElementById("divIMC")
 
-    div.innerText = "O IMc é: " + imc.toFixed(2);
+    div.innerText = "O IMC é: " + imc.toFixed(2);
 }

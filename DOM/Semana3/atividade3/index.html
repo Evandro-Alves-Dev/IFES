@@ -1,0 +1,96 @@
+<!-- Adaptação do arquivo index.html (5 pontos) -->
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" defer></script>
+  <script src="script.js" defer></script>
+  <title>JavaScript - DOM - Prática da Semana 03</title>
+</head>
+
+<body class="p-3 m-0 border-0">
+
+  <h1 class="text-center">Sistema de Cadastro de Games</h1>
+  <hr>
+
+  <form name="form1" action="#" method="POST" class="row g-3 needs-validation" novalidate>
+    <div class="col-md-6">
+      <label for="nomeJogo" class="form-label">Nome do jogo</label>
+      <input type="text" class="form-control" id="nomeJogo" required maxlength="100" minlength="3">
+      <div class="invalid-feedback">Informe o nome com no minimo 3 caracteres.</div>
+    </div>
+    <div class="col-md-6">
+      <label for="classificacao" class="form-label">Classificação indicada</label>      
+      <select class="form-select" id="classificacao" required>
+        <option value="" disabled selected>Selecione a classificação...</option>
+        <option value="Livre">Livre</option>
+        <option value="10">10</option>
+        <option value="12">12</option>
+        <option value="14">14</option>
+        <option value="16">16</option>
+        <option value="18+">18+</option>
+      </select>      
+      <div class="invalid-feedback">Informe uma classificação.</div>
+    </div>
+    <div class="col-md-6">
+      <label for="plataforma" class="form-label">Plataforma do Jogo</label>
+      <select class="form-select" id="plataforma" required>
+        <option value="" disabled selected>Selecione a plataforma...</option>
+        <option value="PC">PC</option>
+        <option value="PS4">PS4</option>
+        <option value="PS5">PS5</option>        
+        <option value="Xbox Series X">Xbox Series X</option>
+        <option value="Xbox Series S">Xbox Series S</option>
+        <option value="Nintendo Switch">Nintendo Switch</option>
+        <option value="Multiplataforma">Multiplataforma</option>
+      </select>
+      <div class="invalid-feedback">Informe a plataforma do jogo.</div>
+    </div>
+    <div class="col-md-6">
+      <label for="categoria" class="form-label">Categoria do Jogo</label>
+      <input type="text" class="form-control" id="categoria" placeholder="Ação, Aventura, Corrida..."
+        required maxlength="50" minlength="3">
+      <div class="invalid-feedback">Informe a categoria com no minimo 3 caracteres.</div>
+    </div>
+    <div class="col-md-6">
+      <label for="idioma" class="form-label">Idioma</label>
+      <input type="text" class="form-control" id="idioma" placeholder="Português, Inglês, Espanhol..." required maxlength="50" minlength="3">
+      <div class="invalid-feedback">Informe a idioma com no minimo 3 caracteres.</div>
+    </div>
+    <div class="col-md-6">
+      <label for="dataLancamento" class="form-label">Data de lançamento</label>
+      <input type="date" class="form-control" id="dataLancamento" required>
+      <div id="feedBackDataLancamento" class="invalid-feedback">Informe a data corretamente.</div>
+    </div>
+    
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <input type="submit" class="btn btn-primary me-md-2" value="Inserir" id="btnInserir">
+    </div>
+  </form>
+
+  <hr>
+
+  <table class="table table-striped" id="tabela">
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">Nome do jogo</th>
+        <th scope="col">Classificação</th>
+        <th scope="col">Plataforma</th>
+        <th scope="col">Categoria</th>
+        <th scope="col">Idioma</th>
+        <th scope="col">Data de lançamento</th>
+      </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+  </table>
+
+</body>
+
+</html>
